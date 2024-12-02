@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+  }
+  
+  .perfil {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    max-height: 500px;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .informacion h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+  }
+  
+  .informacion p {
+    margin: 0 0 20px;
+    line-height: 1.6;
+  }
+  
+  .links a {
+    margin-right: 10px;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  .linkedin{
+    color :dodgerblue;
+  }
+
+  .github {
+    color : black;
+  }
+
+  .descargar {
+    color : black;
+  }
+  
+  .linkedin:hover {
+    color: dimgrey;
+  }
+
+  .github:hover {
+    color: dimgrey;
+  }
+  
+  .descargar:hover {
+    color: dimgrey;
+  }
+
+
+  .seccion-nosotros {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    max-height: 80%;
+    margin: 0 auto;
+  }
+  
+  .seccion-nosotros h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .seccion-nosotros p {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.8;
+    margin: 20px 0;
+    text-transform: uppercase;
+  }
+
+  .seccion-proyectos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .tarjeta-proyectos {
+    display: flex;
+    background-color: #d1e231;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imagen-proyectos {
+    width: 150px;
+    object-fit: cover;
+  }
+  
+  .info-proyectos {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .info-proyectos h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .link-proyecto {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .link-proyecto a {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .link-proyecto a:hover {
+    color: #fff;
+  }
